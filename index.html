@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="enl-US">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.6.0.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>Favorite things</title>
+</head>
+<body>
+  <div class="container">
+    <h1>What are some of your favorite things?</h1>
+    <div>
+      <form id="formOne">
+        <div class="form-group">
+          <label for="q1">What is your favorite pizza topping?</label>
+          <input id="q1" class="form-contorl" type="text">
+        </div>
+        <div class="form-group">
+          <label for="q2">What is your favorite season?</label>
+          <input id="q2" class="form-contorl" type="text">
+        </div>
+        <div class="form-group">
+          <label for="q3">What is your favorite ice cream flavor?</label>
+          <input id="q3" class="form-contorl" type="text">
+        </div>
+        <div class="form-group">
+          <label for="q4">What is your favorite tv show</label>
+          <input id="q4" class="form-contorl" type="text">
+        </div>
+        <div class="form-group">
+          <label for="q5">What is your favorite past time?</label>
+          <input id="q5" class="form-contorl" type="text">
+        </div>
+
+        <button type="submit" class="btn">submit</button>
+      </form>
+    </div>
+
+    <div id="return">
+      <h1>Here is what I have gathered...</h1>
+      <p>Some of your favore things are:</p>
+        <ul id="faveList">
+      </ul>
+    </div>
+    
+  </div>
+</body>
+</html>
